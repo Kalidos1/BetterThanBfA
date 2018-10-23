@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/betterthanbfa.iml" filepath="$PROJECT_DIR$/.idea/modules/betterthanbfa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterThanBfA.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterThanBfA.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/betterthanbfa-build.iml" filepath="$PROJECT_DIR$/.idea/modules/betterthanbfa-build.iml" />
     </modules>
   </component>
