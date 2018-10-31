@@ -6,13 +6,15 @@ import scala.io.StdIn.readLine
 object main {
 
   var test = new MapTest(3)
-  var playertest = new Player("Marvin")
+  var playertest = Player("Marvin")
 
   def main(args: Array[String]): Unit = {
     var input: String = ""
 
     println(playertest.toString)
-    playertest.setHealth() = 200
+    println(playertest.health)
+    playertest.health_=(200)
+    println(playertest.toString)
 
 
     /* do {
