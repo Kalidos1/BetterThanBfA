@@ -7,8 +7,8 @@ case class Player(name: String,
                   var _strength: Int = 20,
                   var _agility: Int = 20,
                   var _intelligence: Int = 20) {
-  // This could also be an option to declare the Attributes not in the constructor idk what is better
-  // private var _health = 100
+
+  //private var _health = 100
 
   //getter and setter for all attributes
   //Method with "Attribute:" = getter

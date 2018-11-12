@@ -5,7 +5,7 @@ import scala.io.StdIn.readLine
 
 object main {
 
-  var test = new MapTest(3)
+  var test = new Map(10)
   var playertest = Player("Marvin")
 
   def main(args: Array[String]): Unit = {
@@ -14,15 +14,19 @@ object main {
     println(playertest.toString)
     println(playertest.health)
     playertest.health_=(200)
+    playertest.agility_=(200)
     println(playertest.toString)
+    test.fill()
 
 
-    /* do {
+
+
+    do {
        println("MapTest : " + test.toString)
        input = readLine()
        println("Input: " + input)
      } while (input != "q")
- */
+
   }
 
 
